@@ -1,0 +1,166 @@
+Grundsätzliches ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ - Konzept der Ausbildung / Schulung
+	- Allgemeiner Überblick  ----------------------->  Detailierte / vertiefende Behandlung von Themen
+	- Überschaubare Businessszenarien -------------->  Auf ABAP fokussierte Inhalte in den Kursen -----> Basis für die Realisierung (zukünftiger) "realer" Businessszenarien 
+          (viele kleine Teilprobleme)
+	- Anspruchsvoll (bzgl. Zeitvorrat und Inhalt) -->  thematische Wiederholungen existieren, sind aber i.A. immer gekoppelt mit ergänzenden / vertiefenden Inhalten
+								-> adäquate Vorgehensweisen / Methodik wählen
+
+Ziel:   SAP Zertifikation  				->	Bewerbung								-> 	Job & Probezeit 
+	  - die erste und niedrigste zu 			  - hier stehen die Interessen des zukünftigen					  - Ihre neuen Kollegen sind diejenigen Personen, bei denen Sie
+            nehmende Hürde					    Arbeitgebers im Mittelpunkt - thematische Schwerpunkte, die			    sich Rat suchen sollten und mit denen Sie Ihre Aktivitäten 
+	  - Fragen sind fair, aber nicht trivial                    SAP für die Zertifikation festgelegt hat, sind in diesem 			    abstimmen sollen!
+								    Kontext nur der minimal zu erwartende Kenntnisstand eines 			  - Fragen Sie sich selbst, welche Erwartungen ein neuer Kollege aus 
+								    Bewerbers									    Ihrer Sicht als erfahrener Mitarbeiter erfüllen sollte! 
+								  - Sie konkurrieren mit anderen Bewerbern - der Arbeitgeber
+								    wählt den aus seiner Sicht vielversprechendsten Bewerber aus
+	
+
+Zeit: t1 ----------------------------------------------------- t2---------------------------------- t3 -------------------------------------------------------------------------------------------------------->
+
+ - Situationen:
+	Ausbildung / Training 
+         - Ziel: Möglichkeiten, ... entdecken/lernen   -----> Zertifikation (Associate)  ---------------  
+	   |							- Ziel: Nachweis erworbener Kenntnisse	|   
+	   |												|	
+	  \|/											       \|/
+         Teilnehmer										    Berater (Associate -> Professional)
+	   - Ausbildungsziel erreichen									- Beteiligt an Entscheidungsprozessen / - findung & Problemlösung
+	   - Kennenlernen vieler kleiner Problemstellungen und						
+	     Lösungsmöglichkeiten / Varianten								- Analyse eines Gesamtproblems -> "Identifizierung" von Teilproblemen / Zerlegung in überschaubare Teilprobleme
+			|											 |
+			|--------------------------------------------------------------------------------------->|  (Ideen & Fertigkeiten)
+														\|/
+             		                                                                                - Entwicklung bzw. Auswahl von Lösungen für Teilprobleme  --> Lösung des Gesamtproblems
+                            											   /|\
+														    | 
+			   											Grundsätzliche Fragen?
+															- Welche Probleme können wie gelöst werden?,
+															- Gibt es bereits Lösungen u. evtl. unterschiedl. Lösungsvarianten?
+															- Wie grenzen sich Lösungvarianten voneinander ab? -> Entscheidungskriterien?
+				 											  (Implementierungsaufwand, Empfehlung/Vorgabe/Best-Practice)
+			       /|\											- Welche Fehler können auftreten?  
+				|											  Welche Auswirkungen haben Fehler?                -> Strategien zur Fehlervermeidung?
+				|											- ...
+				|										  -> Wann sollten solche Fragen beantwortet werden?
+				--------------------------------------------------------------------------------------- So früh wie möglich !
+
+
+
+
+
+Empfehlungen --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Ziele der Ausbildung (ABAP Developer)?
+	- Minimal: 	    Erfolgreiches Absolvieren der Zertifikation                        
+				-> fundiertes theoretisches Wissen + praktische Fertigkeiten (Werkzeuge, Vorgehensweisen, ...)  <- Umfang entspr. Inhalt der Kursunterlagen
+	- Erweitertes Ziel: Situationen am späteren Arbeitsplatz erfolgreich bewältigen        -> leiten Sie für sich selbst Kriterien ab!
+				-> Sie erlebten / beobachteten selbst genug Situationen (z.B.: Integration in ein neues Team; Erwartungen / Anforderungen an neuen Kollegen, ...) 
+				-> in der Zertifikation abgeprüfte Kenntnisse stellen in diesem Zusammenhang nur minimales Basiswissen / minimale Basisfertigkeiten dar
+	- Grundsätzliches:  
+		- Grundsätzlich sollte man davon ausgehen, das jede Problemstellung eines Kunden neu (im Sinne von "wurde noch nie gelöst") ist - inwieweit sich diese mit bereits
+		  gelösten Problemen deckt, ergibt sich erst bei einer genaueren Analyse
+			-> der zeitaufwändigste Part der Problemlösung ist hier die Analyse (Klarstellen der Zielstellung und Vorgaben, Ermitteln der Abhängigkeiten, Zerlegen des kompl. Problems 
+  			   in Teilprobleme, ...)
+				-> der Aufwand sollte gerechtfertigt sein - es besteht hier also auch immer ein gewisser Rechtfertigungszwang
+				-> Aussagen, die auf nicht verifizierten Annahmen basieren, oder ungeklärte Fragen, oder Missverständnisse können katastrophal für das Projekt sein
+			-> nach der Analyse sind dann Lösungsvarianten für Teilprobleme zu ermitteln/entwickeln und eine begründete Auswahl/Entscheidung für die jeweilige Lösung vorzunehmen
+				-> das Szenario "Die getroffene Entscheidung muss später revidiert werden" sollte hier immer mit betrachtet werden
+		- Diese Ausbildung kann nur die grundlegenden Bausteine (Teillösungen), die zum lösen komplexer Probleme notwendig sind, vermitteln oder entsprechende
+                  Lösungsmöglichkeiten aufzeigen
+			-> Ein wichtiger Aspekt ist also immer, die Möglichkeiten zu entdecken und deren Vor- und Nachteile gegeneinander abzugrenzen (... Ideen, Ansätze erhalten)
+			-> In der Praxis, 
+				- ist man mit Sachverhalten nicht evtl. nicht (mehr) hinreichend vertraut (einmal gehört/erläutert; selten bearbeitet; ...), 
+				- die Bearbeitung von Problemen erfolgt unter Zeitdruck und evtl. mit Unterbrechungen, ... 
+		Fazit:
+		   -> Eine strukturierte und systematische Arbeitsweise ist hier unabdingbar, 
+		   -> Die Ausbildungssituation bietet hier willkommene Parallelen - damit auch Möglichkeiten, die eigenen Vorgehensweisen zu überprüfen und zu verfeinern (s.weiter unten). 
+
+Bearbeiten der Theorie
+	- Grundsätzliches
+		- Im Unterricht werden natürlich sehr viele Details besprochen (theoretisch, und untertützt durch Demos)
+		   	-> Besonders wichtig ist, Details wenigstens erst einmal wahrzunehmen. Das dauerhafte Einprägen gelingt nicht sofort - hier ist die Nacharbeit
+			   der Skriptinhalte und Wiederholung wichtig (s. Empfehlungen weiter unten).
+				-> Mir, als Dozent, ist es besonders wichtig,
+					- dass Sie bei Unklarheiten sofort nachfragen - hier sollten Sie für sich selbst sicherstellen, dass wenigstens grundlegende Prinzipien, 
+					  Zusammenhänge (auch zu anderen bereits behandelten Sachverhalten) erkannt und verstanden werden.
+				        - dass Sie sich auch kurze Notizen machen ( genannte Details, erweiterte Fragestellungen, etc.)
+					- auch Rückmeldungen zu erhalten, wenn es um das Erfassen bzw. Verinnerlichen von Sachverhalten geht
+					  (Verbesserungen lassen sich hier u.A. mit ergänzenden Demos, Anpassung der Methodik / Vorgehensweise, ... erreichen)
+		- Die Qualität Ihrer theoretischen Kenntnisse (Fakten, Zusammenhänge, Richtlinien, Vorgehensweisen, ...) ist maßgeblich für die Qualität der Lösungen,
+		  die Sie entwickeln.
+		- Die Kurse bauen aufeinander auf - in vertiefenden Kursen, werden grundsätzliche Kenntnisse vorrausgesetzt
+		- Notwendiges Wissen für die Zertifikation?
+			- SAP veröffentlicht nur Themenschwerpunkte und ein paar Beispielfragen,
+			  Basis ist der Scope der Lehrskripte 
+				-> Kein Dozent kennt die Fragen, die Sie in der Zerti zu beantworten haben - alle Fragen, die Sie vom Dozenten erhalten, dienen dazu, Sie auf das
+				   Unerwartete vorzubereiten
+	- Empfehlungen (insbesondere für die Nacharbeit):
+		- Setzen Sie sich das Ziel, die heute behandelten Inhalte am folgenden Tag zu beherrschen (auch wenn dieses allgemein keine zu erfüllende Erwartung ist, werden Sie 
+		  eher versuchen Unklarheiten auszuräumen, als Unklarheiten hinzunehmen)
+			-> wichtig ist, das Zusammenhänge (und Fakten) in dem Umfang erfasst werden, die der aktuelle Kurs vorgibt! 
+			-> Lesen Sie die Skripte - bemühen Sie sich Details wenigstens wahrzunehmen, das Erlernen / Verinnerlichen der vielen Details ergibt sich dann im Laufe der 
+			   Ausbildung fast von selbst 
+		- üben Sie den Umgang mit der Schlüsselwortdokumentation 
+			-> Tipp: - haben Sie z.B. syntaktisch korrekte Anweisungsvarianten kennen gelernt, versuchen Sie diese anhand der Dokumentation zu finden/ermitteln
+                                 - die Schlüsselwortdoku ist sehr umfangreich und kein geeigneter Ersatz für die Lehrskripte ...
+		- Fertigen Sie eigene Aufzeichnungen an!
+			-> Ziel: 
+				- Sachverhalte mit eigenen Worten übersichtlich und korrekt darzulegen
+				- Sachverhalte übersichtlich (schnell überschaubar und rekapitulierbar) in sich geschlossen darstellen
+			-> notwendiger Umfang (und mögliche Kriterien)?
+				- soweit für das Erlernen hilfreich (Inhalt, Zeitumfang)
+				- wie schnell lassen sich Zusammenhänge/Fakten aus der Online-Hilfe von SAP ermitteln - eigene Darstellungen können hier später Zeit sparen
+				- Lösungsmuster (Hinweis: entsprechende Vorschläge, Anregungen, Hilfestellungen gibt's vom Dozenten zu gegebener Zeit)
+				- Vorgehensweisen
+				- wesentliche Zusammenhänge / Funktionsprinzipien
+			-> Weiteres
+				- Notieren Sie sich alle auftreten Fragen in einem gesonderten Dokument - den Vorteil werden Sie selbst erkennen!
+
+Bearbeiten von Übungen
+	- Grundsätzliches:
+		- Das jeweilige Anwendungsszenario ist so überschaubar wie möglich gehalten
+		  Grund:  - Übungen fokussieren auf die Inhalte (dieses sind die vielen Grundbausteine für die Lösung komplexerer Probleme), die in einer Lektion / Kapitel behandelt wurden,
+			  - komplexe Anwendungsszenarien wären kontraproduktiv
+		- Die Übungszeit ist begrenzt - nutzen Sie rechtzeitig die verfügbaren Hilfen (Dozent fragen, Schrittfolge der Lösung, Quelltext des Lösungsprogrammes)
+			-> Wichtig hierbei ist, daß Sie wenigstens versucht haben, das Teilproblem zu lösen oder eine Erklärung zu finden
+		- Zielstellung: nach vollständiger Bearbeitung (s.u.) sollten Sie eine gleichartige Aufgabenstellung selbständig lösen können !
+	- Vorgehensweise
+		1. Stellen Sie die Zielstellung der Übungsaufgabe klar
+			-> Szenario der Aufgabe lesen,  Programm der Lösung (s. Aufgabenstellung) ausführen / testen
+		2. Brainstorming 
+			-> Wie wäre die Aufgabe mit den, im Kapitel besprochenen Mitteln, lösbar?
+			-> Welche Fakten, Zusammenhänge, Funktionsprinzipien, Vorgehensweisen spielen eine Rolle
+			-> Wie kann die ordnungsgemäße Funktion des Programmes nachgewiesen werden? --> Testzenarien, Testfälle (Anm.: gehört eigentlich schon zu Schritt 1)
+		3. Bearbeiten der Aufgaben der Übung
+			-> Hinweise:
+				- die Lösung zur Übung bietet hier eine genaue Anleitung - diese Hilfestellung nutzen ist ok., da die Übungszeit begrenzt ist und
+				  nachfolgende Übungen oft auf der Lösung basieren
+				- Aktivitäten, die erstmalig ausgeführt werden, "langsam" (gründlich) ausführen (Dialognachrichten beachten, ...) 
+				- Betrachten Sie den Weg zur Lösung als Abfolge von Entscheidungen - im Extremfall sind Sie der-/diejenige, die dem Auftraggeber
+				  die Erläuterungen liefern zu haben
+				- Wenn möglich / sinnvoll lassen Sie die Syntax überprüfen und testen Teilfunktionalitäten des Programms 
+					-> erleichtert die Fehlersuche bei Problemen (Syntaxfehler sind leicht zu elemenieren, logische Fehler i.A. nur sehr schwer)
+		4. Testen der Lösung
+		5. Review
+			-> Fragen - s.u.
+
+	- Wichtige Fragestellungen während der Bearbeitung / Nachschau zur Übung
+		- Welche Schwierigkeiten bestanden beim Klären der Zielstellung (unklare/offene Formulierungen, unklare Zusammenhänge/Prinzipien, ...)?
+                        -> Welche Lösungsalternativen ergeben sich aus den Unklarheiten? 
+ 			-> Angenommen, man hat eine nicht erwünschte Lösungsvariante implementiert - welcher Aufwand wäre nötig, die gewünschte Variante zu implementieren?
+				-> Welche Sachverhalte müssen zu welchem Zeitpunkt unbedingt geklärt werden?
+				-> Welche Risiken ergeben sich, wenn nicht verifizierte Annahmen oder nicht abgestimmte "Verbesserungen" zur Basis des 
+				   eigenen Lösungsdesigns gemacht werden?
+		- An welchen Stellen der Bearbeitung bin ich aus welchen Gründen ins Stocken geraten?
+			Benötigtes Fachwissen:
+			-> Bedenken Sie, Sie wenden gerade neu gehörte Fakten/Zusammenhänge an. Unsicherheiten/Unklarheiten sind möglich bzw. zu erwarten! 
+			   Wie sieht es zukünftig aus?
+                              -> Egal wie häufig Sie geübt haben, hat man lange Zeit mit einer Problematik nichts mehr zu tun, gerät einiges in Vergessenheit - m.a.W. 
+				 Sie sollten dann in der Lage sein, Vergessenes schnell zu reaktivieren!
+					-> Tipp: eigene Aufzeichnungen, Schlüsselwortdoku, ...
+			Vorgegebene Vorgehensweise:
+			-> Lässt sich für das Problem speziell eine Vorgehensweise formulieren,
+		           können Sie die Vorgehensweise verallgemeinern (anwendbar auf diverse Problemstellungen)?
+			-> Wie ist die Reihenfolge der Schritte zu bewerten - zwingend, empfehlenswert (z.B. um Fehler zu vermeiden; minimierter Arbeitsaufwand)
+
+	

@@ -1,0 +1,18 @@
+Kapitel 5 - Arbeiten mit strukturierten Datenobjekten --------------------------------------------------------------------------------------------------------------------------------
+- Was wird im Kontext ABAP-Programm  bzw. im Kontext ABAP-Dictionary als Struktur bezeichnet?
+- Wie definieren Sie in einem ABAP-Programm einen Strukturtyp?
+- Müssen Sie, bevor Sie ein strukturiertes Datenobjekt deklarieren, zuvor einen Strukturtyp deklarieren?
+- Sie müssen eine strukturierte Konstante definieren, für deren Komponenten zeichenartige und numerische Typen verwendet werden. Warum können Sie hier hinter TYPE 
+  keinen Strukturtyp angeben?
+- Was bezeichnet man als "geschachtelte" Struktur und wie adressiert man im ABAP deren Komponenten?
+- Sie können den VALUE ( ) - Ausdruck verwenden, um eine Struktur mit Inhalt zu füllen. Müssen Sie hierbei jede Komponente der Struktur innerhalb ( ) angeben?
+- Die direkte Zuweisung zweier Strukturen, die unterschiedliche Typen haben ist i.d.R. nicht sinnvoll. Statt dessen können Sie die MOVE-CORRESPONDING Anweisung verwenden.
+    - Muss die Zielstruktur überhaupt Komponenten besitzen, die namensgleich zu Komponenten der Quellstruktur sind?
+    - Müssen die zueinander namensgleichen Komponenten auch den gleichen Typ besitzen?
+    - Welches Ergebnis erhalten Sie, wenn einige Komponenten der Zielstruktur bereits Daten enthalten?
+    - Für das Füllen der Zielstruktur können Sie auch den CORRESPONDING-Operator verwenden. Wie müssen Sie die Anweisung programmieren um das gleiche Ergebnis wie bei 
+      der MOVE-CORRESPONDING Anweisung zu erhalten
+- ABAP SQL - SELECT SINGLE ...-Anweisung: In der Anweisung können Sie die Klausel  "INTO"  oder "INTO CORRESPONDING FIELDS OF" verwenden.
+    - Wann würden Sie welche der genannten Klauseln verwenden?
+    - Welchen Inhalt hat die hinter der Klausel angegebene Struktur, wenn die Datenbank eine leere Ergebnismenge liefert (also, kein Datensatz gefunden)?
+    - Bei welcher der genannten Klauseln ist kann die Zielstruktur auch inline deklariert werden?

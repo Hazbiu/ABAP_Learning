@@ -1,0 +1,30 @@
+Kapitel 4 - Daten von der Datenbank lesen --------------------------------------------------------------------------------------------------------------------------------
+- Was bedeutet die Aussage "Die Datenbank ist ein relationales Datenbanksystem"?
+
+- Sie lassen sich die Definition einer Datenbanktabelle im ADT anzeigen - welche Bedeutung haben folgende Angaben:
+	- Angaben die mit  @  beginnen
+	- Angabe hinter  "define table"
+	- Angaben zwischen den curly-Brackets {  }
+	- Angaben den ein  das Wort  key  vorangestellt ist
+ 	- Angaben rechts von einem  : 
+- Wie können Sie sich im ADT den Inhalt einer DB-Tabelle anzeigen lassen
+
+- In welchen "Untersprachen" ist SQL unterteilt und welche dieser dazugehörigen Befehlssätze kann ich in ABAP Programmen nutzen?
+- In ABAP sind Anweisungen für den Zuriff auf das Datenbanksystem enthalten - früher hat SAP für diese Menge der Anweisungen den Begriff OpenSQL verwendet,
+  jetzt verwendet SAP den Begriff ABAP SQL.  Warum dieser Begriffswechsel, was will SAP damit zum Ausdruck bringen? 
+- Welche Rolle spielt die Datenbankschnittstelle (Database Interface)?
+- SELECT-Anweisung:
+	- Erläutern Sie den prinzipellen Aufbau einer ABAP SQL Anweisung (also, die benötigten Klauseln) an einem Beispiel (z.B. Lesen eines einzelnen Datensatzes von der DB)!
+	- Welches Zeichen ist einem Bezeichner eines ABAP Datenobjekts voranzustellen?
+	- Wie haben Sie in der FIELDS-Klausel eine Aufzählung von Felder anzugeben, bzw. was können Sie angeben, wenn Sie einen kompletten Datensatz verarbeiten möchten?
+	- Welchen Inhalt hat das Zieldatenobjekt, das Sie hinter INTO angeben, wenn die Datenbank eine leere Ergebnismenge liefert?
+	- Wie können Sie feststellen, ob die Datenbank Datensätze gefunden hat (also die Eregebnismenge nicht leer ist)?
+	- Welche Datenquellen können Sie hinter FROM angeben (nennen Sie zwei der möglichen Datenquellen)?
+
+- Welche Angaben können Sie in der Definition eines CDS View definition finden (Nennen Sie 3 und deren grundsätzliche Bedeutung!)?
+- In einer CDS View definition werden, analog zu einer DB-Tabellendefinition, Elemente in den curly brackets angegeben. Wenn Sie die Elementliste mit der Feldliste
+  einer DB-Tabellendefinition vergleichen, welcher Vorteil könnte sich ergeben, wenn Sie den CDS View als Datenquelle einer SELECT-Anweisung verwenden?
+- Können CDS Views auch andere CDS Views als Datenquelle verwenden?
+- Wie können Sie im ADT ermitteln, welche Daten mittels eines CDS View abrufbar sind?
+- In einem CDS view ist eine Assoziation definiert mit dem Aliasnamen _Connection definiert. Die Assoziation verweist auf eine CDS View Entität mit dem Element AirportFrom.
+  Wie können Sie in der Feldliste einer SELECT-Anweisung dafür sorgen, das das Element AirportFrom ebenfalls gelesen wird?

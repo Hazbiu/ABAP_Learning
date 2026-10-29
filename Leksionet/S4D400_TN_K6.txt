@@ -1,0 +1,24 @@
+Kapitel 6 - Arbeiten mit komplexen internen Tabellen --------------------------------------------------------------------------------------------------------------------------------
+- Was ist eine "komplexe interne Tabelle"?
+- Der "Bauplan" für eine interne Tabelle ist der Tabellentyp - welche Angaben gehören zur Definition eines Tabellentyps?
+- Im Lehrskskrip steht folgende Aussage: "Eine einfache interne Tabelle hat nur eine namenlose Spalte".
+	- Ist diese Aussage wirklich korrekt?
+	  Anmerkung / Hinweis: - Alle internen Tabellen unterstützen den Schlüsselzugriff, hierfür muss die Spalte einen Namen besitzten - aber welchen?
+- Wann sprechen wird von einem Index- und wann von einem Schlüsselzugriff und worin unterscheiden sich diese beiden Zugriffe?
+- Worin unterscheiden sich interne Tabellen der Tabellenart STANDARD TABLE, SORTED TABLE, HASHED TABLE?
+- Welche Anweisungen sind für sortierte Tabellen verboten bzw. problematisch (Laufzeitfehler droht)?
+- Was bedeutet, "ein Schlüssel ist eindeutig bzw. nicht-eindeutig"?
+- Wie können Sie den Inhalt einer internen Tabelle in eine andere interne Tabelle kopieren, wenn deren Zeilenstrukturen unterschiedlich sind?
+- Was passiert bei folgender Anweisung, wenn in der internen Tabelle keine Zeile gefunden werden kann und durch welche ABAP-Anweisung könnten Sie diese ersetzen?
+  workarea = IntTablexxx[ comp1 = 22 ].
+- Mit welchen ABAP-Anweisungen können Sie von einer internen Tabelle: eine Zeile auslesen, eine Zeile aktualisieren, eine Zeile anhängen, alle oder nur ein Teil der Zeilen verarbeiten?
+- In einer Methode einer Klasse programmieren Sie folgende Anweisung:  MODIFY intTable FROM workarea.  Beim Ausführen des Programmes erhalten Sie einen Laufzeitfehler - warum?
+- Sie möchten mittels SELECT-Anweisung eine interne Tabelle füllen. Beantworten Sie diesbezüglich folgende Fragen:
+	- Wie und wo geben Sie den Bezeichner der int. Tabelle in der SELECT-Anweisung an (welche Optionen haben Sie hierbei)?
+	- Angenommen, die interne Tabelle enthält bereits Zeilen. Welchen Inhalt hat die interne Tabelle, wenn die Datenbank keine oder mehrere Datensätze als Ergebnismenge liefert?
+	- Sie lassen sich die interne Tabelle inline deklarieren - ermitteln Sie, mit welchen Eigenschaften die interne Tabelle deklariert wird?
+	- Sie erwarten im Resultset der Datenbank eine sehr große Anzahl von Datensätzen - wäre eine Inline-Deklaration der internen Tabelle zweckmäßig?
+	  Aspekte: Weitere benötigte Zugriffen auf die int. Tabelle im Programm
+	- Die gesamte Ergebnismenge ermitteln Sie über einen Union. Welcher Unterschied besteht, wenn Sie die einzelnen SELECT-Anweisungen mittels UNION   oder  UNION ALL 
+          verbinden?
+

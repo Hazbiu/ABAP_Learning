@@ -1,0 +1,41 @@
+Kapitel 3 - Arbeiten mit lokalen Klassen --------------------------------------------------------------------------------------------------------------------------------
+- Was versteht man allgemein unter einer Klasse, und für welchen Zweck könnte eine Klasse defiert werden?
+  Beantworten Sie diese Frage so konkret wie nötig!
+- Was gehört grundsätzlich zur Definition  einer Klasse?
+- Was kann man in einer Klasse für Bestandteile (oder Komponenten) definieren und welche zwei grundsätzlichen Entscheidungen müssen Sie für jede Komponente
+  treffen?
+- Sie sollen eine Klasse anlegen - was wäre ein wesentliches Kriterium dafür, diese Klasse als lokale oder globale Klasse anzulegen?
+- Gibt es ein Namenskonzept für die Benennung von Klassen?
+  Aspekte: globale Klasse, lokale Klasse,  gewöhnliche (normale) Klasse, Ausnhameklasse, 
+- "Kapselung" ist ein wesentliches Konzept der objektorientierten Programmierung - was versteht man darunter, und wie ist dieses realisierbar?
+- Sie definieren ein Attribut in der PUBLIC SECTION. Welche Vor- bzw. Nachteile ergeben sich daraus?
+  Hinweis: In diesem Zusammenhang - was bewirkt der Zusatz READ-ONLY bei der Deklaration eines Attributes und wann ist dieser überhaupt zulässig?
+- Sie sollen eine Klasse definieren und erhalten die Beschreibung mittels UML.
+	- Wo finden Sie den Namen der Klasse, wo die Menge der Attribute, wo die Menge der Methoden?
+	- Was bedeutet ein vorangestelltes + bzw. -  Zeichen vor dem Bezeichner der Komponente?
+	- Was bedeutet es, wenn der Bezeichner der Komponente unterstrichen ist?
+- Worin unterscheiden sich Instanz- und Klassenattribute?
+- Worin unterscheiden sich Instanz- und Klassenmethoden?
+- Mit Attributen modellieren Sie Eigenschaften (realer Objekte) und mit Methoden das Verhalten (m.a.W. vorhandene oder benötigte Funktionalitäten) realer Objekte.
+  	- Welche der vielen Attribute müssten Sie garantiert als Instanzattribute definieren?
+	- Auf welcher Basis entscheiden Sie, ob eine Methode als Instanz- oder als Klassenmethode zu definieren ist?
+- Wenn Sie eine Methode definieren, welche Entscheidungen müssen Sie hierbei treffen?
+- Welche Methoden werden auch als "Funktionale Methoden" bezeichnet, und welche Vorteile haben Diese?
+- Objekte / Instanzen von Klassen:
+	- Was ist ein Objekt (bzw. eine Instanz) einer Klasse?
+	- Wie erzeugen Sie eine Instanz und was ist hierfür notwendig?
+	- Wie können Sie eine erzeugte Instanz ansprechen (adressieren)?
+	- Sie müssen (zur Designzeit nicht vorhersehbar) viele Instanzen einer Klasse erzeugen - wie können Sie diese vielen Instanzen in Ihrem Programm verwalten?
+- Wodurch zeichnet sich ein Instanzkonstruktor aus? (Nennen Sie wesentliche Eigenschaften!)
+- Wodurch zeichnet sich ein Klassenkonstruktor aus?
+- Was ist das Datenobjekt  ME?
+  Aspekte: wo ist es definiert, welchen Typ hat es, wann wird es benötigt
+- Müssen Klassenkomponenten immer wie folgt adressiert werden?   <name_der_klasse>=><name_der_klassenkomponente
+
+
+- ABAP Development Tool:
+	- Wie können Sie im ADT eine globale Klasse anlegen?
+	- Wo und wie können Sie (mit möglichst wenig Aufwand) eine lokale Klasse anlegen?
+	- Wann ist der Implementierungsteil einer Klasse zwingend nötig
+	- Sie haben eine Methode definiert - wie definieren Sie die Implementierungsteil der Methode?
+	- Welche Quickfixes gibt es für eine Klasse und wie rufen Sie diese ab?

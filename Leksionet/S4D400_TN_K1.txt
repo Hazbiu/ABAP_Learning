@@ -1,0 +1,41 @@
+Kapitel 1 Erste Schritte --------------------------------------------------------------------------------------------------------------------------------
+Eclipse
+- Erläutern Sie die folgenden Begriffe: Eclipse, Perspektive, View (bzw. Sicht) in Eclipse, Project Explorer, Projekt
+- Was bedeuten Begriffe: SAP BTP , PaaS (Platform as a Service)?
+- Wie kann prinzipiell die SAP Business Technology Platform (SAP BTP) für ABAP Entwickler zugänglich / nutzbar gemacht werden?
+
+- Was wird in Eclipse als Perspektive bezeichnet?
+- Nennen Sie einige der wichtigsten Sichten (Views) des ADT!
+- Wie kann man eine benötigte Perspektive (z.B. ADT) öffnen?
+- Ist Eclipse als Entwicklungsumgebung in ein ABAP System integriert?
+- Welche Funktion haben Projekte in Eclipse und welche Arten von Projekten können Sie in ADT anlgen?
+
+- Sie versuchen eine neue Klasse mit dem Namen ZSD400_demo$07 anzulegen - welche Meldung erhalten Sie?
+- Sie sehen die Definition z.B. einer Klasse im Editor und möchten zu Codebestandteilen nähere Informationen erhalten.
+  Welchem Zweck dienen die Funktionstasten F1, F2 und F3?
+- Sie fügen zu einer Methode einer Klasse Codezeilen hinzu - beantworten Sie hierzu folgenden Fragen!
+  a) Wann wird überprüft, ob die Codezeile syntaktisch korrekt ist (bennen Sie hier drei Zeitpunkte)?
+  b) Wie können Sie detailierte Informationen zu einem Syntaxfehlern ermitteln?
+  c) Sie versuchen eine Klasse zu aktivieren, die jedoch abgebrochen wird. Ursache sind mehrere syntaktisch fehlerhafte Codezeilen im Quelltext, die jedoch nicht alle im Editor sichtbar sind.
+     Wie gehen Sie vor, um die syntaktischen Fehler zu elemenieren?
+  d) Sind im "Problems-View" immer alle Fehler in der Definition eines Repositoryobjekts aufgelistet?  
+ 
+- Beim Anlegen eines Entwicklungsobjektes mußten Sie auch einen Transportauftrag zuordnen - wie können Sie zu einem späteren Zeitpunkt ermitteln, welchen Transportauftrag Sie zugeornet hatten?
+- Sie haben (wie in den Übungen) ein Klasse erstellt, die Main-methode ohne Syntaxfehler implementiert und die Klasse erfolgreich aktiviert. Beim Ausführen ( Funktionstaste F9) kommt es zum zu einem Abbruch.
+  Sie korrigieren anschließend die Anweisung, die den Abbruch verursacht hat (elemenieren damit die Ursache), sichern diese Änderungen und Starten die Ausführung mittels F9.
+  Sie erhalten wieder den gleichen Abbruch bei der Ausführung - was ist die Ursache?
+
+
+Repository ....
+- Wozu dient eine Softwarekomponente?
+- Was bezeichnet der Begriff "ABAP Repository" und wie ist dieses organisiert?
+- Welchen alternativen Begriff können Sie für "Entwicklungsobjekt" verwendenden?
+- Was ist ein Paket, welche Pakettypen werden unterschieden und worin unterscheiden sich diese?
+- Wie wird in einer SAP Entwicklungs-Infrastruktur sichergestellt, dass z.B. nur einwandfrei funktionierende Programme bei der Ausführung von Geschäftsprozessen zum Einsatz kommen?
+- Welchem Zweck dient ein Transportauftrag?
+- Welcher Unterschied besteht zwischen der Softwarekomponente  LOCAL und ZLOCAL und welche Namenskonvention gilt für Pakete, die Sie in diesen Softwarekomponenten angeben?
+- Sie legen ein neues Entwicklungsobjekt ( EWO )an. Beantworten Sie in diesem Zusammenhang folgende Fragen:
+- Was versteht man unter einem Namensraum - warum wird zwischen  SAP-, Partner- u. Kundennamensraum unterschieden und welchem Zweck dienen diese Namensräume?.
+- Welche grundsätzliche Namensregel besteht für Entwicklungsobjekte, die dem Kundennamensraum zugeordnet sind?
+- Sie müssen in einem Kundensystem ein neues Paket anlegen - welche Angaben gehören zur Paketdefinition, und welche Angaben sind davon obligatorisch?
+- Können Sie im Kundenssystem einem neuen Entwicklungsobjekt das Entwicklungspaket /LRN/DEMOOBJECTS zuordnen?

@@ -1,0 +1,208 @@
+Kapitel 2 - Anwendung grundlegender Methoden und Konzepte --------------------------------------------------------------------------------------------------------------------------------
+
+ABAP - Basics ...............
+- Welche ABAP-Sprachversionen gibt es, wodurch zeichnen sich diese aus und welche Vorgabe bzw. Empfehlung gilt bzgl. der Auswahl?
+- Auf welcher Basis wird der für ein Programm nutzbare ABAP-Sprachumfang und die Verwendung anderer Entwicklungsobjekte durch das Programm festgelegt und vom System sichergestellt?
+
+- Versuchen Sie herauszufinden, was Unicode-System auszeichnet!
+
+- Einige Fragen zu den Funktionen der ABAP-Sprache:
+  - Gelten allgemeine ABAP Sprachregeln in allen ABAP Sprachversionen?
+  - Wie beginnt und wie endet eine ABAP-Aweisung?
+  - Spielt die Groß- bzw. Kleinschreibung bei ABAP-Anweisungen eine Rolle?
+  - Kann man Datenobjekte (z.B. Variablen) definieren, deren Typ sich zur Laufzeit ändert?
+  - ABAP enthält Sprachelemente für den Datenbankzugriff - welchen Teilsprachen sind diese zugeordnet?
+	-> ABAP SQL, ABP EML (entity manipulation language)
+- Einige Fragen zur Syntax der ABAP-Sprache:
+  - Wie definieren Sie eine ganze Quelltextzeile als Kommentar (Syntaxregel, doing im Editor)?
+  - Müssen Anweisungen in einer Quelltextzeile vollständig programmiert werden oder können sich diese über mehrere Quelltextzeilen erstrecken?
+  - Wie können Sie Teile von Anweisungen kommentieren (m.a.W., für diese erläuternde Informationen hinzufügen)?
+  - Können mehrere Anweisungen in einer Quelltextzeile programmiert werden?
+
+
+
+Datenobjekte
+- Was ist ein Datenobjekt, welche grundsätzlichen Typen (Arten) werden unterschieden und worin unterscheiden sich diese grundsätzlich?
+- Was versteht man unter dem Begriff "Deklaration eines Datenobjekts"?
+- Kann es in einem Programm zur Laufzeit ein Datenobjekt geben, dessen Typ und / oder Inhalt unbestimmt ist?
+- Bei der Deklaration eines Datenobjekts muss ein Typ festgelegt werden - welches sind mögliche Quellen für den festzulegenden Typ?
+- Welche Aussagen können Sie bzgl. des ABAP Dictionary und dort definierter Typen machen im Vergleich zu Typen, die in einem Programm mittels TYPES-Anweisung deklariert werden?
+- In welche grundsätzlichen zwei Kategorien kann man eingebaute ABAP Typen unterteilen und woran macht sich fest, welcher der Kategorie der jeweilige Typ zuzuordnen ist?
+- Was ist überhaupt ein Datentyp und welche Rolle spielt dieser (Anm.: versuchen Sie sich hiervon eine klare Vorstellung zu machen!)?
+- Was unterscheidet "lokale Typen" von "globalen Typen"?
+- Im Dictionary sei ein einfacher Datentyp mit dem Bezeichner  GTYVDEMO (soll dem techn. ABAP Typ  F entsprechen) definiert. Im Programm finden Sie folgende Anweisungen:
+  TYPES GTYVDEMO  TYPE n LENGTH 5.
+  DATA  gv_demo   TYPE GTYVDEMO.
+  Welchen Typ und welchen Inhalt hat die Variable unmittelbar nach den Start des Programmes? Begründen Sie Ihre Antwort!
+	-> Typ: n(5),  Inhalt: 00000
+- Bei der Deklaration eines Datenobjekts müssen Sie dessen Namen festlegen - welche grundsätzlichen Regeln sollten Sie befolgen, bzw. gibt es hierfür Empfehlungen?
+- Eine Variablen gv_result und gv_demo wurden wie folgt deklariert:  DATA gv_result TYPE p LENGTH 8 DECIMALS 2.  
+								     DATA gv_demo   TYPE p          DECIMALS 2.
+   - Sind beide Deklarationen syntaktisch korrekt - wenn ja, warum und welche der Anweisungen sollte verwendet werden?
+   - Inwieweit unterscheiden sich die Variablen?
+   - Welchen Wert haben die Variablen nach dem Programmstart?
+   - Welchen minimalen u. maximalen Wert kann die Variable gv_result enthalten - geben Sie also den möglichen Wertebereich an!
+
+- Wenn Sie eine Konstante definieren, welchen Zusatz der deklarativen Anweisung müssen Sie im Vergleich zur Deklatation einer Variablen verwenden?
+- Welche Arten von Literalen werden unterschieden, wie werden diese definiert und wozu verwendet?
+- Warum ist die Verwendung von Literalen in nicht-deklarativen Anweisungen allgemein nicht zu empfehlen, und was wird statt dessen empfohlen?
+
+
+Wertzuweisungen
+- In ABAP können die Datenobjekte links und rechts vom Zuweisungsoperator unterschiedliche Typen besitzen - welche Vor- bzw. Nachteile bietet diese Möglichkeit?
+- Wie können Sie eine Variable auf ihren typgerechten Initialwert setzen?
+- Variablen lassen sich auch inline deklarieren - hierzu folgende Fragen:
+   - Woraus leitet sich der Typ der Variablen ab?
+   - Welche Lebensdauer hat die Variable (ab wann ist diese adressierbar und wie lange ist diese im Programm existent)?
+   - Welchen Vorteil bietet die Inline-Deklaration?
+   - Gibt es Empfehlungen bzgl. der Verwendung der Inline-Deklaration (Hinweis: Informieren Sie sich mit Hilfe der Schlüsselwortdokumentation!)?
+
+Arithmetische Berechnungen 
+- Ist es möglich bei der Durchführung einer arithmetischen Berechnung Datenobjekte unterschiedlichsten Typs zu verwenden? Welche Vorteile bzw. Risken bestehen diesbezüglich und
+  gibt es hierfür Regeln oder Empfehlungen?
+
+
+Zeichenkettenverarbeitung
+ - Was sind Zeichenkettentemplates, wie werden diese definiert und welche Vorteile haben Zeichenkettentemplates?
+ 
+
+
+
+
+
+Control Structures
+- Suchen Sie die Kontrollstruktur CASE in der ABAP Sprachhilfe (Keyword-documentation). Ermitteln Sie, ausgehend von dem Treffer Ihrer Suche, 
+  welche Kontrollstrukturen in ABAP unterschieden werden und wie diese (ABAP Anweisungen) definiert werden!
+- Nennen Sie Kontrollstrukturen!
+
+
+
+Logical Expressions
+- Allgemein (unabhängig von SAP) gibt es für die Verknüpfung von logischen Teilausdrücken (logexpr1, logexpr2) zum log. Gesamtausdruck (result) die Operatoren OR, AND , XNOR und XOR.
+  Ordnen Sie den folgenden Aussagen den jeweiligen Operatoren zu (Anm.: wahr bzw. falsch meint im folgenden den logischen Wahrheitswert!
+  a) Der Gesamtausdruck ist nur wahr, wenn beide Teilausdrücke wahr sind.
+  b) Der Gesamtausdruck ist wahr, wenn einer der Teilausdrücke wahr ist.
+  c) Der Gesamtausdruck ist wahr, wenn ein Teilausdruck wahr und der andere Teilausdruck falsch ist.
+  d) Der Gesamtausdruck ist wahr, wenn beide Teilausdrücke den gleichen Wahrheiswert besitzen.
+
+- Wie ist der Begriff "Logische Bedingung" allgemein definiert?
+- Für Formulierung eines logischen Ausdrucks benötigen Sie Vergleichsoperatoren - Nennen Sie diese"
+- Für Vergleichsoperatoren gibt es "verbale" Alternativen. Statt  <=  könnten Sie auch LE  in einem logischen Ausdruck verwenden.
+   - Nennen Sie für die Vergleichsoperatoren, deren "verbalen" Alternativen!
+   - Gibt es bzgl. der Verwendung der Vergleichoperatorn und derer "verbalen" Alternativen in ein und dem selben Programm irgenwelche Empfehlungen oder Vorgaben?
+
+- Wie können Sie überprüfen, ob der Wert einer Variable ihren typgerechten Initialwert entspricht?
+- Was sind Prädikatfunktionen?
+- Gibt es in ABAP einen Datentyp für log. Wahrheitswerte (true, false)?
+- Die Anweisung   DATA(result) = 22 > 10.   ist syntaktisch nicht korrekt! Nennen Sie die Ursache!
+- Logische Bedingungen sind i.d.R. komplex - d.h. ein logischer Gesamtausdruck wird aus mehreren logischen Teilbedingungen gebildet. Welche logischen Operatoren
+  gibt es hierfür?
+- Geben Sie die log. Operatoren entsprechend ihrer Rangfolge an!
+- In welcher Reihenfolge wird der logische Ausdruck:  abs( x ) BETWEEN abs( y ) AND  abs( 10 * y )   verarbeitet und wann ist dieser Ausdruck wahr?
+- Sie einen programmieren einen log. Gesamtausdruck. In welcher Reihenfolge wertet das System diesen Gesamtausdruck aus?
+- Wann ist der logische Ausdruck  logexpr1  EQUIV  logexpr2  wahr?
+- Wie können Sie eine logische Bedingung formulieren, die dem XOR entspricht?
+
+Verwendung der ABAP Sprachhilfe
+- Wie rufe ich diese auf?
+- In der Schlüsselwortdoku werden Anweisungen (u. deren möglichen Realisierungen) mittels einer formalen Syntax beschrieben. Bezüglich der Deklaration von 
+  Variablen auf Basis eingebauten ABAP Typen finden Sie folgendes:
+  DATA { {var[(len)] TYPE abap_type [DECIMALS dec]}  | {var [TYPE abap_type [LENGTH len] [DECIMALS dec]]} } 
+       [VALUE val|{IS INITIAL}] 
+       [READ-ONLY].
+  Wie ist diese formaliesierte Syntax zu interpretieren? Treffen Sie insbesondere Aussagen zur Bedeutung von:
+    - Worten in Großbuchstaben, Worten in Kleinbuchstaben
+    - den Klammern:     {}  und  [], 
+    - dem Pipe-Symbol:  |
+- Im Lehrskript sind diverse Realisierungen von Anweisungen vorgestellt worden - versuchen Sie diese mit Hilfe (oder an Hand) der ABAP Sprachhilfe zu ermitteln.
+
+
+
+Ausnahmebehandlung
+- Was versteht man unter den Begriffen "Ausnahme", "Anwendungsausnahme", "Systemausnahme" , "Ausnahmebehandlung" und "Laufzeitfehler"?
+
+- Nennen Sie zwei Möglichkeiten mit denen Laufzeitfehler verhindert werden können!
+
+- Was ist die technische Basis für die Ausnahmebehandlung (Anm.: 3 Antworten)?
+
+- Sie starten ein Programm aus den ADT heraus, das die Anweisung  DATA(result) = 22 / 0.  enthält.  Beim Ausführen des Programmes wird Dieses mit Laufzeitfehler abgebrochen.
+  Wie erhalten Sie Kenntnis von dem Programmabbruch und wie können Sie Ursachen des Programmabbruchs analysieren?
+
+- Ein von Ihnen im ADT gestartetes Programm wurde mit Laufzeitfehler abgebrochen. Leider haben Sie die Dialogbox des ADT, die auf den Laufzeitfehler aufmerksam gemacht hat, 
+  bereits geschlossen. Wie können Sie sich den Laufzeitfehler für die weitere Analyse wieder anzeigen lassen?
+  Tipp: Googlen Sie wie folgt:  sap adt runtime errors   und folgen Sie dem Link "ABAP Runtime Errors and Short Dumps" im SAP Help Portal und dann 
+        dem Link "Subscribing to Feeds from ABAP Repository"
+
+- Im folgenden Coding seinen die Anweisungen a1, a2, a3, c1, e1 programmiert.
+   TRY.
+       a1
+       a2
+       a3
+     CATCH cx_sy_zerodivide.
+       c1
+   ENDTRY.
+   e1
+  Welche Anweisungen werden ausgeführt, wenn bei Ausführung von a2 die Ausnahme cx_sy_zerodivide ausgelöst wird?
+
+
+- Die folgende TRY ... ENDTRY Kontrollstruktur führt zu einem Syntaxfehler - was ist die Ursache und wie können Sie den Syntaxfehler beheben?
+  Hinweis: ... steht hier für eine beliebige Sequenz von Anweisungen, ... selbst verursacht aber keinen Syntaxfehler!
+   TRY.
+       ...
+     CATCH cx_sy_arithmetic_error.
+
+     CATCH cx_sy_zerodivide.
+
+   ENDTRY.
+
+
+- Die Die folgende TRY ... ENDTRY Kontrollstruktur ist syntaktisch Korrekt - wie interpretieren Sie diese bzw. welche Möglichkeit ergibt sich daraus
+  für die Behandlung von Ausnahmen?
+   TRY.
+       ...
+   CATCH cx_sy_zerodivide cx_sy_arithmetic_overflow.
+
+   CATCH cx_sy_conversion_overflow.
+   
+   ENDTRY.
+
+- Wieviele behandelbaren Ausnahmen können bei der Durchführung einer Multiplikation auftreten?
+  Hinweis: Ermitteln Sie diese mit der ABAP Sprachhilfe!
+  Tipp:    ADD, MULTIPLY, DIVIDE, SUBTRACT sind (wenn auch veraltet) immer noch gültige Schlüsselworte 
+
+
+
+
+Iterationen
+- Nennen Sie die Anweisungen, mit denen Iterationen ausgeführt werden können!
+
+- Welche iterative Anweisung würden Sie bevorzugen (z.B. aus Gründen der bessen Lesbarkeit des Quelltextes), wenn ein Anweisungsblock wenigstens
+  einmal ausgeführt werden soll?
+- Welches Systemfeld dient bei DO ... ENDDO und WHILE ... ENDWHILE Schleifen als Iterationszähler und welchen Wert hat dieses, beim ersten Schleifendurchlauf?
+- In einer LOOP-Schleife kann man das Systemfeld  SY-TABIX verwenden - welchem Zweck dient diese Datenobjekt?
+
+
+
+Interne Tabellen
+- Erläutern Sie die Begriffe Tabellentyp, Zeilentyp und interne Tabelle.
+- GTTY_DEMO sei ein Tabellentyp - welche der beiden Deklarationen stellt eine sinnvolle Deklaration einer internen Tabelle dar?
+  a) DATA gt_itab TYPE TABLE OF GTTY_DEMO.
+  b) DATA gt_itab TYPE GTTY_DEMO.
+- Was ist der Initialwert einer internen Tabelle?
+- Mit welcher Anweisung können Sie alle Zeilen einer internen Tabelle verarbeiten?
+- Was wird (üblicherweise) als "Arbeitsbereich für eine interne Tabelle" bezeichnet?
+- Wenn gt_itab eine interne Tabelle ist, ist dann folgende Anweisung syntaktisch korrekt?
+  LOOP AT gt_itab  INTO DATA(gs_itab).  ...  ENDLOOP.
+- Mit welcher Anweisung können Sie eine int. Tabelle auf ihren typgerechten Initialwert setzen?
+
+
+Debugging von ABAP Programmen
+- Steht in den ADT für das debuggen von Programmen eine "Sicht" oder eine "Perspektive" zur Verfügung?
+- Nennen Sie wichtige Elemente der Debug-perspektive und deren Zweck!
+- Wie können Sie erreichen, das beim Ausführen eines Programmes in den Debugger gewechselt wird?
+
+- Welche speziellen Braekpoints können Sie im Debugger anlegen und wo machen Sie dieses?
+
+- Was ist ein Watchpoint und wie legen Sie diesen an?
+
+

@@ -1,0 +1,38 @@
+Kapitel 7 - Datenbankänderungen implementieren durch Verwendung von Business Objects --------------------------------------------------------------------------------------------------------------------------------
+- Nennen Sie die 3 Repository-Objekte, die zur Definition eines Business-Objects gehören und deren Zweck!
+- Behavior Definition:
+	- Was definiert diese?
+	- Worin besteht der Unterschied zwischen "managed implementation" und "unmanaged implementation"?
+	- In der Behavior Definition finden Sie folgende Einträge (zw. den geschweiften Klammern) - was bedeuten diese Einträge?
+ 		field ( mandatory : create ) CarrierID, ConnectionID, FlightDate;
+ 		field ( readonly  : update ) CarrierID, ConnectionID, FlightDate;
+ 		field ( readonly )           LocalCreatedAt, LocalCreatedBy, LastChangedAt, LocalLastChangedAt, LocalLastChangedBy;
+		validation validatePrice  on save { create; field Price; }
+		mapping for /LRN/S4D400AFLGT
+		 {
+		   CarrierID = CARRIER_ID;
+		   ConnectionID = CONNECTION_ID;
+		   FlightDate = FLIGHT_DATE;
+		   Price = PRICE;
+		   CurrencyCode = CURRENCY_CODE;
+ 		 }
+
+- Was wird als Behaviorpool bezeichnet?
+- Die Angabe   validation validatePrice        on save { create; field Price; }  in der Behaviordefinition definiert eine spezielle Methode. Beantworten Sie diesbezüglich
+  folgende Fragen:
+  	- Wie können Sie sich auf einfache Art und Weise die Definition und (leere) Implementierung im Behaviorpool erzeugen lassen?
+	- Wie können Sie auf einfache Art und Weise in die vorhandene Implementierung dieser Methode gelangen?
+- Wofür werden Business Objects üblicherweise  verwendet?
+- Welche zwei wichtige Wege gibt es im RESTful Aplication programming model um ein Businessobject zu "konsumieren"?
+- Was ist EML und wo ist diese nutzbar?
+- Was ist eine Business-Object-Projection  und wofür ist diese sinnvoll bzw. empfohlen?
+- Was ist ein Business-Object-Interface bzw. was stellt dieses dar, welchem Zweck dient es?
+- Wenn Sie sich die Definition von CDS Views ansehen, woran könnten Sie erkennen, daß Diese für BO Projections  oder BO Interfaces definiert worden sind?
+- Geben Sie an, welche Namenskonventionen für die Benennung von BO Projections, BO Interfaces und BO Definition gelten!
+- Wie könnten Sie erreichen, das für verschiedene SAP Fiori Anwendungen jeweils nur das Anlegen von neuen BO oder das Ändern (Aktualisieren, Löschen) von BO möglich ist?
+- Ist es möglich, verschiedene BO Projektionen auf Basis eines CDS Views zu definieren?
+- Nennen Sie die zwei grundsätzlichen EML-Anweisungen, die für das Lesen bzw. Ändern (anlegen, ändern, löschen) von Daten eines Businessobjects zur Verfügung stehen!
+- Wovon hängt es ab, ob die EML-Anweisung    MODIFY ENTITIES ... DELETE ...  in einem ABAP programm (z.B. Methode einer Klasse) verwendet werden darf?
+- Bennen Sie die Angaben, die Sie bei einer READ ENTITIES - Anweisung machen müssen!
+- Wann dürfen Sie die Anweisung  COMMIT ENTITIES   verwenden und wozu ist diese notwendig?
+

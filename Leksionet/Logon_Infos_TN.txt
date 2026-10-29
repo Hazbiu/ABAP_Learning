@@ -1,0 +1,88 @@
+System
+
+AC2
+URL: 
+https://connectsep.learning.sap.com
+
+Remote-User: (Account und Kennwort)
+P2W71982531##
+Isolation_Dinner_Unopened73
+
+SAP-User:  (Account und Kennwort)
+TRAIN-## 	
+Welcome1
+
+Trainer:
+P2W7197734900
+Shut~Pope~Surviving35
+
+Vorgehensweise für Systemzugang:
+1. Im Browser (oder Drucktaste SAP im Alfa View): https://connectsep.learning.sap.com
+2. Anmeldedaten Remote-User eingeben
+	- nach Bestätigen die Anmeldedaten speichern lassen
+	- Kennwort ist unbegrenzt gültig
+	- Nach erfolgreicher Anmeldung sieht man den Desktop des Remote-PC
+3. Auf Remote-PC das Initialisierungs-Skipt starten:   Start->Initialize WTS->Initialize WTS
+	- Dies ist nur einmal nötig!
+	- Empfehlung: Start von Notepad und Eclipse  über die Taskleiste ermöglichen
+4. Eclipse starten
+	- weitere Details wie im Unterricht demonstriert
+	- Service-Key für Eclipse-Projekt: -> wird separat bereitgestellt (Datei: ...access_BTP.txt )
+          Aktuelle Service-URL:  https://fb8b4e15-9fed-4375-8f78-afa2de27eb98.abap.eu10.hana.ondemand.com
+
+xx   	##	Name	   	Vorname		      SAP	RemUser
+----------------------------------------------------------------------
+	02	Hofert		Maximilian		
+	03	Holz		Moritz
+	04	Hazbiu		Gjyljana
+	05	Fehrer		Simon
+	06	Dinger		Katja
+	07	Edigin		Sandra
+	08	Aktas		Ahmet
+	09	Theel		Detlef
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
